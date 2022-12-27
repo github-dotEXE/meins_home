@@ -1,7 +1,6 @@
 # meins_home
-<pre>
 a home plugin for mc
-
+<pre>
 dependencies:
   meins_core: https://github.com/github-dotEXE/meins_core
  
