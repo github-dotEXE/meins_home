@@ -1,0 +1,12 @@
+name: meins_home
+version: 1.0
+main: de.ender.home.Main
+api-version: 1.19
+load: STARTUP
+depend: [ meins_core ]
+authors: [ ender__exe ]
+description: meins home plugin
+
+commands:
+  home:
+    description: /home [name]|new -|[name]!
