@@ -6,12 +6,12 @@ dependencies:
  
 commands and permissions:
   exampleCMD:
-    /CMD <args here> : permission
+    /CMD [args here] : permission
       description for cmd here
       
   home:
-    /home <name>
-      teleports you to home named <name>
-    /home new <name>
-      makes new home called <name>
+    /home [name]
+      teleports you to home named [name]
+    /home new [name]
+      makes new home called [name]
 </pre>
