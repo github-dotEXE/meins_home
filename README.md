@@ -1,4 +1,5 @@
 # meins_home
+<pre>
 a home plugin for mc
 
 dependencies:
@@ -14,3 +15,4 @@ commands and permissions:
       teleports you to home named <name>
     /home new <name>
       makes new home called <name>
+</pre>
