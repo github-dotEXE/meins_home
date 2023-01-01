@@ -1,11 +1,12 @@
 name: meins_home
-version: 1.0
+version: 1.1
 main: de.ender.home.Main
 api-version: 1.19
-load: STARTUP
+load: POSTWORLD
 depend: [ meins_core ]
 authors: [ ender__exe ]
 description: meins home plugin
+website: https://github.com/github-dotEXE
 
 commands:
   home:
