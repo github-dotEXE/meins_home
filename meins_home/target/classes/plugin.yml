@@ -10,4 +10,4 @@ website: https://github.com/github-dotEXE
 
 commands:
   home:
-    description: /home [name]|new -|[name]!
+    description: /home [name]|new/set|list|del/delete/remove|get -|[name]|-|-|[name]
