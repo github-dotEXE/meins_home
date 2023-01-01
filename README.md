@@ -12,6 +12,12 @@ commands and permissions:
   home:
     /home [name]
       teleports you to home named [name]
-    /home new [name]
+    /home get [name]
+      teleports you to home named [name]
+    /home new/set [name]
       makes new home called [name]
+    /home del/delete/remove [name]
+      removes the home [name]
+    /home list
+      lists all of command executors homes
 </pre>
