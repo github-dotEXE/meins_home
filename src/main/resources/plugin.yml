@@ -1,0 +1,21 @@
+name: meins_home
+version: 1.2
+main: de.ender.home.Main
+api-version: 1.19
+load: POSTWORLD
+depend: [ meins_core ]
+authors: [ ender__exe ]
+description: meins home plugin
+website: https://github.com/github-dotEXE
+
+commands:
+  home:
+    description: /home [name]|new/set|list|del/delete/remove|get/to -|[name]|-|-|[name]
+  sethome:
+    description: /sethome [name]
+  gethome:
+    description: /gethome [name]
+  delhome:
+    description: /delhome [name]
+  listhome:
+    description: /listhome [name]
