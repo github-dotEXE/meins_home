@@ -6,7 +6,7 @@
 
     <groupId>de.ender</groupId>
     <artifactId>home</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>meins_home</name>
@@ -37,6 +37,13 @@
         </resources>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>de.ender-releases</id>
+            <url>http://exe.ddns.net:8081/releases</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>papermc-repo</id>
@@ -45,6 +52,11 @@
         <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>de.ender-releases</id>
+            <name>meins_repo</name>
+            <url>http://exe.ddns.net:8081/releases</url>
         </repository>
     </repositories>
 
@@ -58,8 +70,7 @@
         <dependency>
             <groupId>de.ender</groupId>
             <artifactId>core</artifactId>
-            <version>1.19</version>
-            <scope>provided</scope>
+            <version>1.20</version>
         </dependency>
     </dependencies>
 </project>
